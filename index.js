@@ -47,7 +47,7 @@ module.exports = function(options) {
         return result.concat(Object.keys(configObject[prop] || {}));
     }, []);
 
-    pattern.push('!gulp-load-plugins');
+    pattern.push('!y-server-load-plugins');
 
     var log = logger(options);
 
@@ -68,7 +68,7 @@ module.exports = function(options) {
         var err;
         if (object[requireName]) {
           logDebug('error: defineProperty ' + name);
-          err = 'Could not define the property "' + requireName + '", you may have repeated dependencies in your package.json like' + ' "gulp-' + requireName + '" and ' + '"' + requireName + '"';
+          err = 'Could not define the property "' + requireName + '", you may have repeated dependencies in your package.json like' + ' "y-server-plugin-' + requireName + '" and ' + '"' + requireName + '"';
           throw new Error(err);
         }
 
