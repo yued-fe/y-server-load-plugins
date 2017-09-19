@@ -1,0 +1,23 @@
+{
+  "name": "y-server-load-plugins",
+  "version": "0.0.1",
+  "description": "Automatically load any y-server plugins in your package.json",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "repository": "jackfranklin/gulp-load-plugins",
+  "keywords": [
+    "y-server",
+    "require",
+    "load",
+    "plugins"
+  ],
+  "author": "zhangzhifei <zhangzhifei@yuewen.com>",
+  "dependencies": {
+    "array-unique": "^0.2.1",
+    "findup-sync": "^0.4.0",
+    "micromatch": "^2.3.8",
+    "resolve": "^1.1.7"
+  }
+}
