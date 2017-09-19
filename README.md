@@ -88,7 +88,7 @@ var $ = yServerLoadPlugins({
 
 ```
 
-## `postRequireTransforms` (1.3+ only)
+## `postRequireTransforms`
 
 This enables you to transform the plugin after it has been required by y-server-load-plugins.
 
