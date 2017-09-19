@@ -1,6 +1,6 @@
 {
   "name": "y-server-load-plugins",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatically load any y-server plugins in your package.json",
   "license": "MIT",
   "files": [
